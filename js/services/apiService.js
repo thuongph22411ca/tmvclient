@@ -1,7 +1,7 @@
 app.factory("apiService", [
   "$http",
   function ($http) {
-    const baseUrl = "http://localhost:3001";
+    const baseUrl = "https://backendtmv.onrender.com";
 
     const mergeConfig = (userConfig) => {
       const defaultHeaders = {};
